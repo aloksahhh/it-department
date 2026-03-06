@@ -19,7 +19,15 @@ interface StudentListRowProps {
 export function StudentListRow({ 
   title = "Student Lists", 
   academicYear = "2024-25",
-  years =["2026"]
+  years = [
+  {
+    year: "2026",
+    session: "2022-2026",
+    count: 120,
+    pdfUrl: "/pdf/students-2026.pdf",
+    type: "B.Tech"
+  }
+]
 }: StudentListRowProps) {
   return (
     <div className="mb-16">

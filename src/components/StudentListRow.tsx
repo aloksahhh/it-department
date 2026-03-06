@@ -19,7 +19,7 @@ interface StudentListRowProps {
 export function StudentListRow({ 
   title = "Student Lists", 
   academicYear = "2024-25",
-  years =['2026']
+  years =[2026]
 }: StudentListRowProps) {
   return (
     <div className="mb-16">
